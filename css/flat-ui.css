@@ -1868,6 +1868,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 @media (min-width: 768px) {
   .navbar-toggle {
     display: none;
+    color:#000000;
   }
 }
 .navbar-nav {

@@ -864,6 +864,11 @@ section * {
   background: #233240;
   color: white;
 }
+
+
+
+
+
 .header-10 .navbar {
   position: absolute;
   z-index: 2;
@@ -961,6 +966,7 @@ section * {
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
+    color:#ffffff;
   }
   .header-10-sub.v-center.row,
   .header-10-sub .v-center.row {
@@ -1626,7 +1632,8 @@ section * {
 
 
 .header-10-sub .background {
-  background-image: url("../img/img-1.jpg");
+  /* background-image: url("../img/img-2.jpg"); */
+  background:#147ed5;
   opacity: 85;
   filter: alpha(opacity=8500);
   opacity: 0.85;
@@ -1636,7 +1643,8 @@ section * {
 
 @media (max-width: 767px) {
 .header-10-sub .background {
-  background-image: url("../img/img-1mobile.jpg");
+  /* background-image: url("../img/intro.jpeg"); */
+  background:#147ed5;
   opacity: 85;
   filter: alpha(opacity=8500);
   opacity: 0.85;
@@ -1675,9 +1683,9 @@ section * {
 .content-23 #bgVideo {
   overflow: hidden;
 }
-.content-23 #bgVideo > video {
-  position: absolute !important;
-  top: 0 !important;
+.content-23 #bgVideo {
+  position: absolute;
+  background-image: url("../img/ocean.jpg");
 }
 .content-23 .control-btn {
   opacity: 10;
@@ -1695,3 +1703,22 @@ section * {
   background-color: #1B1F23;
   color: #7F8C8D;
 }
+
+#marissaintro p {
+  font-color:#ffffff;
+  color:#ffffff;
+}
+
+#marissaintro img {
+  height:18%;
+  width:18%;
+}
+
+@media (max-width: 767px) {
+#marissaintro img {
+  height:50%;
+  width:50%;
+}
+
+
+#147ed5
