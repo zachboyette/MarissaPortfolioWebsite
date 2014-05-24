@@ -1720,5 +1720,10 @@ section * {
   width:50%;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  #marissaintro img {
+    height:50%
+    width:50%;
+  }
 
 #147ed5
